@@ -48,9 +48,9 @@ Frontend:
 - npm start
 
 ### Deployment
-Frontend: [Insert URL]
+Frontend: [https://green-cart-logistics-delivery-simul.vercel.app/]
 
-Backend: [Insert URL]
+Backend: [ttps://greencart-logistics-delivery-simulation-pk8w.onrender.com]
 
 Database: MongoDB Atlas
 
@@ -77,3 +77,4 @@ POST /api/simulation
 Suyash Gandhi
 - Email : suyash25gandhi@gmail.com 
 - LinkedIn : https://www.linkedin.com/in/suyash-gandhi-8899302a6/ 
+
