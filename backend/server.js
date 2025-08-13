@@ -16,11 +16,11 @@ app.use(express.json());
 
 connectDB();
 runSeed();
-app.use('/api/auth', authRoutes);
-app.use('/api/drivers', driversRoutes);
-app.use('/api/routes', routesRoutes);
-app.use('/api/orders', ordersRoutes);
-app.use('/api/simulate', simulateRoute);
+app.use('/auth', authRoutes);
+app.use('/drivers', driversRoutes);
+app.use('/routes', routesRoutes);
+app.use('/orders', ordersRoutes);
+app.use('/simulate', simulateRoute);
 
 // error handler
 app.use((err, req, res, next) => {
