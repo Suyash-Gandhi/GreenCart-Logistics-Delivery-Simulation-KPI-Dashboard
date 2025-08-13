@@ -48,18 +48,18 @@ Frontend:
 - npm start
 
 ### Deployment
-Frontend: [https://green-cart-logistics-delivery-simul.vercel.app/]
+Frontend: https://green-cart-logistics-delivery-simul.vercel.app/
 
-Backend: [ttps://greencart-logistics-delivery-simulation-pk8w.onrender.com]
+Backend: https://greencart-logistics-delivery-simulation-pk8w.onrender.com
 
 Database: MongoDB Atlas
 
 ### APIEndpoints:
- /api/drivers, /api/routes, /api/orders, /api/simulation
+ /drivers, /routes, /orders, /simulation
 
 ### Example Simulation Request:
 
-POST /api/simulation
+POST /simulation
 {
   "availableDrivers": 5,
   "routeStartTime": "09:00",
@@ -77,4 +77,5 @@ POST /api/simulation
 Suyash Gandhi
 - Email : suyash25gandhi@gmail.com 
 - LinkedIn : https://www.linkedin.com/in/suyash-gandhi-8899302a6/ 
+
 
